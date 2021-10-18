@@ -1,0 +1,59 @@
+SonarQube plugins:
+  - SonarCSS 1.1.1.1010 (cssfamily)
+  - Svn 1.9.0.1295 (scmsvn)
+  - SonarScala 1.5.0.315 (sonarscala)
+  - SonarC# 7.15.0.8572 (csharp)
+  - Java Code Quality and Security 6.3.2.22818 (java)
+  - SonarQube CNES Report 3.2.2 (cnesreport)
+  - LDAP 2.2.0.608 (ldap)
+  - SonarHTML 3.1.0.1615 (web)
+  - SonarFlex 2.5.1.1831 (flex)
+  - SonarXML 2.0.1.2020 (xml)
+  - Rules Compliance Index (RCI) 1.0.1 (rci)
+  - SonarTS 1.9.0.3766 (typescript)
+  - Build Breaker 2.3.1.347 (buildbreaker)
+  - Checkstyle 8.40 (checkstyle)
+  - SonarVB 7.15.0.8572 (vbnet)
+  - SonarPython 1.14.1.3143 (python)
+  - GitHub Authentication for SonarQube 1.5.0.870 (authgithub)
+  - JaCoCo 1.0.2.475 (jacoco)
+  - SonarGo 1.1.1.2000 (go)
+  - SonarKotlin 1.5.0.315 (kotlin)
+  - Swift (Backelite) 0.4.6 (backelitesonarswiftplugin)
+  - SonarJS 5.2.1.7778 (javascript)
+  - SonarRuby 1.5.0.315 (ruby)
+  - Findbugs 4.0.3 (findbugs)
+  - Flutter 0.3.2 (flutter)
+  - Git 1.12.1.2064 (scmgit)
+  - SAML 2.0 Authentication for SonarQube 1.2.0.682 (authsaml)
+  - SonarPHP 3.2.0.4868 (php)
+Global server settings:
+  - sonar.auth.saml.certificate.secured=******
+  - sonar.auth.saml.enabled=false
+  - sonar.auth.saml.loginUrl=https://portal.sso.us-east-1.amazonaws.com/saml/assertion/NzE5MDU2MTM5OTM4X2lucy00ODJkNjg2N2JmM2I4NGZl
+  - sonar.auth.saml.providerId=https://portal.sso.us-east-1.amazonaws.com/saml/assertion/NzE5MDU2MTM5OTM4X2lucy00ODJkNjg2N2JmM2I4NGZl
+  - sonar.auth.saml.user.email=email
+  - sonar.auth.saml.user.login=login
+  - sonar.auth.saml.user.name=username
+  - sonar.core.id=6B90342B-AXgRIhJEBUAXz-s3drIM
+  - sonar.core.serverBaseURL=https://quality.growexx.com
+  - sonar.core.startTime=2021-08-24T08:17:48+0000
+Project server settings:
+Project scanner properties:
+  - sonar.exclusions=vendor/**/*
+  - sonar.host.url=https://quality.growexx.com/
+  - sonar.inclusions=app/Http/Controllers/*,app/Models/*
+  - sonar.language=php
+  - sonar.login=******
+  - sonar.profile=PSR-2
+  - sonar.projectBaseDir=/home/growlt094/Desktop/Laravel/blogseven
+  - sonar.projectKey=SachinSharma-LaravelBlog
+  - sonar.projectName=SachinSharma-LaravelBlog
+  - sonar.projectVersion=1.0.0
+  - sonar.scanner.app=ScannerCli
+  - sonar.scanner.appVersion=4.2.0.1873
+  - sonar.scm.provider=git
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=app
+  - sonar.verbose=true
+  - sonar.working.directory=/home/growlt094/Desktop/Laravel/blogseven/.scannerwork

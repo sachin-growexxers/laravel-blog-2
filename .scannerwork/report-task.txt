@@ -1,0 +1,6 @@
+projectKey=SachinSharma-LaravelBlog
+serverUrl=https://quality.growexx.com
+serverVersion=7.9.6.41879
+dashboardUrl=https://quality.growexx.com/dashboard?id=SachinSharma-LaravelBlog
+ceTaskId=AXx-srVDLTTA8AKgaC0g
+ceTaskUrl=https://quality.growexx.com/api/ce/task?id=AXx-srVDLTTA8AKgaC0g
